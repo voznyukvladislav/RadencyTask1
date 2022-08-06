@@ -116,7 +116,7 @@ namespace RadencyTask1.Classes
             Read();
             SaveLog();
 
-            Console.WriteLine("Reading and writing are finished!");
+            Console.WriteLine("Reading and writing are finished! ");
         }
         private void Stop()
         {
