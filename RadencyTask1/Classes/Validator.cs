@@ -22,7 +22,6 @@ namespace RadencyTask1.Classes
 
             return false;
         }
-
         private bool FirstValidate()
         {
             string pattern = @"[A-Za-z]+(, +|,)[A-Za-z]+(, +|,)(""|'|“|`)[A-Za-z]+(, +|,)[A-Za-z]+ [0-9A-Za-z/\\]+(, +|,)\d+(""|'|”|`)(, +|,)\d+\.\d+(, +|,)\d{4}-\d{1,2}-\d{1,2}(, +|,)\d+, [A-Za-z]+";

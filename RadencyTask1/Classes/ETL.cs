@@ -172,8 +172,6 @@ namespace RadencyTask1.Classes
                         FoundErrors++;
                     }
                     ParsedLines++;
-
-                    Thread.Sleep(1000);
                 }
 
                 streamReader.Close();
